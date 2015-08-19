@@ -1,0 +1,233 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_PROPOR_REGRPRED.R:69
+#: STATS_PROPOR_REGRPRED.R:157
+msgid "Proportional Variable Regression Prediction"
+msgstr ""
+"比例変数回帰予測"
+
+#: STATS_PROPOR_REGRPRED.R:70
+msgid "Proportional Variable Regression Prediction: Warnings"
+msgstr ""
+"比例変数回帰予測: 警告"
+
+#: STATS_PROPOR_REGRPRED.R:75
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"R %s パッケージが必要ですが、読み込むことができませんでした。"
+
+#: STATS_PROPOR_REGRPRED.R:88
+msgid "The ID variable cannot be a predictor in the model"
+msgstr ""
+"ID 変数をモデル内の予測変数にすることはできません"
+
+#: STATS_PROPOR_REGRPRED.R:98
+msgid "An input or ID variable was not found in the dataset"
+msgstr ""
+"入力または ID 変数がデータセット内で見つかりませんでした"
+
+#: STATS_PROPOR_REGRPRED.R:127
+msgid "No source specification was provided for the model"
+msgstr ""
+"モデルのソース指定が提供されませんでした"
+
+#: STATS_PROPOR_REGRPRED.R:131
+msgid "Either a workspace file or the use-retained option but not both must be specified"
+msgstr ""
+"ワークスペース ファイルの指定、またはその使用保持オプション (「保持」または「クリア」のいずれか。両方は指定不可) の指定が必要です。"
+
+#: STATS_PROPOR_REGRPRED.R:139
+msgid "The model file %s could not be found or is  not a valid model file."
+msgstr ""
+"モデル ファイル %s が見つからなかったか、有効なモデル ファイルではありません。"
+
+#: STATS_PROPOR_REGRPRED.R:147
+msgid "One or more required objects are missing from the specified workspace"
+msgstr ""
+"1 つ以上の必要なオブジェクトが、指定されたワークスペースから欠落しています"
+
+#: STATS_PROPOR_REGRPRED.R:151
+msgid "One or more proportional regression objects are invalid"
+msgstr ""
+"1 つ以上の比例回帰オブジェクトが無効です"
+
+#: STATS_PROPOR_REGRPRED.R:161
+msgid "Dependent Variable"
+msgstr ""
+"従属変数"
+
+#: STATS_PROPOR_REGRPRED.R:162
+msgid "Link Function"
+msgstr ""
+"リンク関数"
+
+#: STATS_PROPOR_REGRPRED.R:163
+msgid "Mean Model Variables"
+msgstr ""
+"平均モデル変数"
+
+#: STATS_PROPOR_REGRPRED.R:164
+msgid "Precision Model Link Function"
+msgstr ""
+"精度モデル リンク関数"
+
+#: STATS_PROPOR_REGRPRED.R:165
+msgid "Precision Model Variables"
+msgstr ""
+"精度モデル変数"
+
+#: STATS_PROPOR_REGRPRED.R:166
+msgid "Offset"
+msgstr ""
+"オフセット"
+
+#: STATS_PROPOR_REGRPRED.R:167
+msgid "Missing Value Treatment"
+msgstr ""
+"欠損値の処理"
+
+#: STATS_PROPOR_REGRPRED.R:168
+msgid "Estimator Type"
+msgstr ""
+"推定量タイプ"
+
+#: STATS_PROPOR_REGRPRED.R:169
+msgid "Convergence"
+msgstr ""
+"収束基準"
+
+#: STATS_PROPOR_REGRPRED.R:170
+msgid "Saved Workspace"
+msgstr ""
+"保存済みワークスペース"
+
+#: STATS_PROPOR_REGRPRED.R:171
+msgid "Creation Date"
+msgstr ""
+"作成日時"
+
+#: STATS_PROPOR_REGRPRED.R:172
+msgid "Prediction Dataset"
+msgstr ""
+"予測データセット"
+
+#: STATS_PROPOR_REGRPRED.R:176
+msgid "Maximum Likelihood"
+msgstr ""
+"最尤法"
+
+#: STATS_PROPOR_REGRPRED.R:177
+msgid "ML Bias Corrected"
+msgstr ""
+"ML バイアス補正"
+
+#: STATS_PROPOR_REGRPRED.R:178
+msgid "ML Bias Reduced"
+msgstr ""
+"ML バイアス減少"
+
+#: STATS_PROPOR_REGRPRED.R:185
+#: STATS_PROPOR_REGRPRED.R:186
+#: STATS_PROPOR_REGRPRED.R:190
+msgid "--NA--"
+msgstr ""
+"--NA--"
+
+#: STATS_PROPOR_REGRPRED.R:189
+msgid "Yes"
+msgstr ""
+"はい"
+
+#: STATS_PROPOR_REGRPRED.R:189
+msgid "No"
+msgstr ""
+"いいえ"
+
+#: STATS_PROPOR_REGRPRED.R:196
+#: STATS_PROPOR_REGRPRED.R:197
+#: STATS_PROPOR_REGRPRED.R:197
+msgid "Summary"
+msgstr ""
+"要約"
+
+#: STATS_PROPOR_REGRPRED.R:198
+msgid "Computations done by R package betareg"
+msgstr ""
+"R パッケージ betareg によって完了した計算"
+
+#: STATS_PROPOR_REGRPRED.R:204
+msgid "Coefficient"
+msgstr ""
+"係数"
+
+#: STATS_PROPOR_REGRPRED.R:204
+msgid "Std. Error"
+msgstr ""
+"標準誤差"
+
+#: STATS_PROPOR_REGRPRED.R:204
+msgid "Z Value"
+msgstr ""
+"Z 値"
+
+#: STATS_PROPOR_REGRPRED.R:204
+msgid "Sig."
+msgstr ""
+"有意"
+
+#: STATS_PROPOR_REGRPRED.R:206
+#: STATS_PROPOR_REGRPRED.R:207
+msgid "Mean Coefficients"
+msgstr ""
+"平均係数"
+
+#: STATS_PROPOR_REGRPRED.R:211
+#: STATS_PROPOR_REGRPRED.R:212
+msgid "Precision Coefficients"
+msgstr ""
+"精度係数"
+
+#: STATS_PROPOR_REGRPRED.R:254
+msgid "Predicted Values, Type=%s"
+msgstr ""
+"予測値、タイプ=%s"
+
+#: STATS_PROPOR_REGRPRED.R:270
+msgid "The active dataset must have a name when creating new datasets"
+msgstr ""
+"新しいデータセットを作成する場合、アクティブなデータセットには名前が必要です"
+
+#: STATS_PROPOR_REGRPRED.R:274
+msgid "One or more specified output dataset names are already in use"
+msgstr ""
+"1 つ以上の指定された出力データセット名がすでに使用されています"
+
+#: STATS_PROPOR_REGRPRED.R:335
+msgid "End of procedure"
+msgstr ""
+"手順の終わり"
+
+#: STATS_PROPOR_REGRPRED.R:362
+msgid "Message Number"
+msgstr ""
+"メッセージ番号"
+
+
