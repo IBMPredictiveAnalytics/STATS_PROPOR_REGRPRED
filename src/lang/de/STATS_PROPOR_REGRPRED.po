@@ -1,0 +1,233 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_PROPOR_REGRPRED.R:69
+#: STATS_PROPOR_REGRPRED.R:157
+msgid "Proportional Variable Regression Prediction"
+msgstr ""
+"Proportionale Variablenregressionsvorhersage"
+
+#: STATS_PROPOR_REGRPRED.R:70
+msgid "Proportional Variable Regression Prediction: Warnings"
+msgstr ""
+"Proportionale Variablenregressionsvorhersage: Warnungen"
+
+#: STATS_PROPOR_REGRPRED.R:75
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"Das R %s-Paket ist erforderlich konnte aber nicht geladen werden."
+
+#: STATS_PROPOR_REGRPRED.R:88
+msgid "The ID variable cannot be a predictor in the model"
+msgstr ""
+"Die ID-Variable kann im Modell kein Prädiktor sein"
+
+#: STATS_PROPOR_REGRPRED.R:98
+msgid "An input or ID variable was not found in the dataset"
+msgstr ""
+"Eine Eingabe- oder ID-Variable wurde im Dataset nicht gefunden"
+
+#: STATS_PROPOR_REGRPRED.R:127
+msgid "No source specification was provided for the model"
+msgstr ""
+"Keine Quellenspezifikation für das Modell bereitgestellt"
+
+#: STATS_PROPOR_REGRPRED.R:131
+msgid "Either a workspace file or the use-retained option but not both must be specified"
+msgstr ""
+"Es muss entweder eine Arbeitsbereichsdatei oder die Option <!-- ST230-22, 25.06.14, LS -->'Löschen' oder 'Beibehalten' aber nicht beides angegeben werden"
+
+#: STATS_PROPOR_REGRPRED.R:139
+msgid "The model file %s could not be found or is  not a valid model file."
+msgstr ""
+"Die Modelldatei %s wurde nicht gefunden oder ist keine gültige Modelldatei"
+
+#: STATS_PROPOR_REGRPRED.R:147
+msgid "One or more required objects are missing from the specified workspace"
+msgstr ""
+"Mindestens ein erforderliches Objekt fehlt im angegebenen Arbeitsbereich"
+
+#: STATS_PROPOR_REGRPRED.R:151
+msgid "One or more proportional regression objects are invalid"
+msgstr ""
+"Mindestens ein proportionales Regressionsobjekt ist ungültig"
+
+#: STATS_PROPOR_REGRPRED.R:161
+msgid "Dependent Variable"
+msgstr ""
+"Abhängige Variable"
+
+#: STATS_PROPOR_REGRPRED.R:162
+msgid "Link Function"
+msgstr ""
+"Verknüpfungsfunktion"
+
+#: STATS_PROPOR_REGRPRED.R:163
+msgid "Mean Model Variables"
+msgstr ""
+"Mittelwertsmodellvariablen"
+
+#: STATS_PROPOR_REGRPRED.R:164
+msgid "Precision Model Link Function"
+msgstr ""
+"Genauigkeitsmodell-Verknüpfungsfunktion"
+
+#: STATS_PROPOR_REGRPRED.R:165
+msgid "Precision Model Variables"
+msgstr ""
+"Genauigkeitsmodellvariablen"
+
+#: STATS_PROPOR_REGRPRED.R:166
+msgid "Offset"
+msgstr ""
+"Offset"
+
+#: STATS_PROPOR_REGRPRED.R:167
+msgid "Missing Value Treatment"
+msgstr ""
+"Behandlung eines fehlenden Werts"
+
+#: STATS_PROPOR_REGRPRED.R:168
+msgid "Estimator Type"
+msgstr ""
+"Schätzertyp"
+
+#: STATS_PROPOR_REGRPRED.R:169
+msgid "Convergence"
+msgstr ""
+"Konvergenz"
+
+#: STATS_PROPOR_REGRPRED.R:170
+msgid "Saved Workspace"
+msgstr ""
+"Gespeicherter Arbeitsbereich"
+
+#: STATS_PROPOR_REGRPRED.R:171
+msgid "Creation Date"
+msgstr ""
+"Erstellungsdatum"
+
+#: STATS_PROPOR_REGRPRED.R:172
+msgid "Prediction Dataset"
+msgstr ""
+"Vorhersagedataset"
+
+#: STATS_PROPOR_REGRPRED.R:176
+msgid "Maximum Likelihood"
+msgstr ""
+"Maximum Likelihood"
+
+#: STATS_PROPOR_REGRPRED.R:177
+msgid "ML Bias Corrected"
+msgstr ""
+"ML-Verzerrung korrigiert"
+
+#: STATS_PROPOR_REGRPRED.R:178
+msgid "ML Bias Reduced"
+msgstr ""
+"ML-Verzerrung reduziert"
+
+#: STATS_PROPOR_REGRPRED.R:185
+#: STATS_PROPOR_REGRPRED.R:186
+#: STATS_PROPOR_REGRPRED.R:190
+msgid "--NA--"
+msgstr ""
+"--NV--"
+
+#: STATS_PROPOR_REGRPRED.R:189
+msgid "Yes"
+msgstr ""
+"Ja"
+
+#: STATS_PROPOR_REGRPRED.R:189
+msgid "No"
+msgstr ""
+"Nein"
+
+#: STATS_PROPOR_REGRPRED.R:196
+#: STATS_PROPOR_REGRPRED.R:197
+#: STATS_PROPOR_REGRPRED.R:197
+msgid "Summary"
+msgstr ""
+"Übersicht"
+
+#: STATS_PROPOR_REGRPRED.R:198
+msgid "Computations done by R package betareg"
+msgstr ""
+"Mit dem R betareg-Paket ausgeführte Berechnungen"
+
+#: STATS_PROPOR_REGRPRED.R:204
+msgid "Coefficient"
+msgstr ""
+"Koeffizient"
+
+#: STATS_PROPOR_REGRPRED.R:204
+msgid "Std. Error"
+msgstr ""
+"Standardfehler"
+
+#: STATS_PROPOR_REGRPRED.R:204
+msgid "Z Value"
+msgstr ""
+"Z-Wert"
+
+#: STATS_PROPOR_REGRPRED.R:204
+msgid "Sig."
+msgstr ""
+"Sig."
+
+#: STATS_PROPOR_REGRPRED.R:206
+#: STATS_PROPOR_REGRPRED.R:207
+msgid "Mean Coefficients"
+msgstr ""
+"Mittelwertkoeffizienten"
+
+#: STATS_PROPOR_REGRPRED.R:211
+#: STATS_PROPOR_REGRPRED.R:212
+msgid "Precision Coefficients"
+msgstr ""
+"Genauigkeitskoeffizienten"
+
+#: STATS_PROPOR_REGRPRED.R:254
+msgid "Predicted Values, Type=%s"
+msgstr ""
+"Vorhergesagte Werte, Typ=%s"
+
+#: STATS_PROPOR_REGRPRED.R:270
+msgid "The active dataset must have a name when creating new datasets"
+msgstr ""
+"Das aktive Dataset muss einen Namen haben, wenn neue Datasets erstellt werden"
+
+#: STATS_PROPOR_REGRPRED.R:274
+msgid "One or more specified output dataset names are already in use"
+msgstr ""
+"Mindestens ein angegebener Ausgabedatasetname wird bereits verwendet"
+
+#: STATS_PROPOR_REGRPRED.R:335
+msgid "End of procedure"
+msgstr ""
+"Ende der Prozedur"
+
+#: STATS_PROPOR_REGRPRED.R:362
+msgid "Message Number"
+msgstr ""
+"Nachrichtennummer"
+
+
