@@ -1,0 +1,233 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_PROPOR_REGRPRED.R:69
+#: STATS_PROPOR_REGRPRED.R:157
+msgid "Proportional Variable Regression Prediction"
+msgstr ""
+"비율 변수 회귀 예측"
+
+#: STATS_PROPOR_REGRPRED.R:70
+msgid "Proportional Variable Regression Prediction: Warnings"
+msgstr ""
+"비율 변수 회귀 예측: 경고"
+
+#: STATS_PROPOR_REGRPRED.R:75
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"R %s 패키지가 필요하지만 로드할 수 없습니다."
+
+#: STATS_PROPOR_REGRPRED.R:88
+msgid "The ID variable cannot be a predictor in the model"
+msgstr ""
+"모형에서 ID 변수는 예측자일 수 없습니다."
+
+#: STATS_PROPOR_REGRPRED.R:98
+msgid "An input or ID variable was not found in the dataset"
+msgstr ""
+"데이터 세트에서 입력 또는 ID 변수를 찾을 수 없습니다."
+
+#: STATS_PROPOR_REGRPRED.R:127
+msgid "No source specification was provided for the model"
+msgstr ""
+"모형에 대해 제공된 소스 지정이 없습니다."
+
+#: STATS_PROPOR_REGRPRED.R:131
+msgid "Either a workspace file or the use-retained option but not both must be specified"
+msgstr ""
+"작업공간 파일 또는 사용하도록 유지된 옵션 중 하나만 지정해야 합니다."
+
+#: STATS_PROPOR_REGRPRED.R:139
+msgid "The model file %s could not be found or is  not a valid model file."
+msgstr ""
+"모형 파일 %s이(가) 없거나 유효한 모형 파일이 아닙니다."
+
+#: STATS_PROPOR_REGRPRED.R:147
+msgid "One or more required objects are missing from the specified workspace"
+msgstr ""
+"하나 이상의 필수 개체가 지정된 작업공간에서 누락되었습니다."
+
+#: STATS_PROPOR_REGRPRED.R:151
+msgid "One or more proportional regression objects are invalid"
+msgstr ""
+"하나 이상의 비율 회귀 개체가 올바르지 않습니다."
+
+#: STATS_PROPOR_REGRPRED.R:161
+msgid "Dependent Variable"
+msgstr ""
+"종속변수"
+
+#: STATS_PROPOR_REGRPRED.R:162
+msgid "Link Function"
+msgstr ""
+"연결함수"
+
+#: STATS_PROPOR_REGRPRED.R:163
+msgid "Mean Model Variables"
+msgstr ""
+"평균 모형 변수"
+
+#: STATS_PROPOR_REGRPRED.R:164
+msgid "Precision Model Link Function"
+msgstr ""
+"정밀 모형 연결함수"
+
+#: STATS_PROPOR_REGRPRED.R:165
+msgid "Precision Model Variables"
+msgstr ""
+"정밀 모형 변수"
+
+#: STATS_PROPOR_REGRPRED.R:166
+msgid "Offset"
+msgstr ""
+"변위"
+
+#: STATS_PROPOR_REGRPRED.R:167
+msgid "Missing Value Treatment"
+msgstr ""
+"결측값 처리"
+
+#: STATS_PROPOR_REGRPRED.R:168
+msgid "Estimator Type"
+msgstr ""
+"추정량 유형"
+
+#: STATS_PROPOR_REGRPRED.R:169
+msgid "Convergence"
+msgstr ""
+"수렴"
+
+#: STATS_PROPOR_REGRPRED.R:170
+msgid "Saved Workspace"
+msgstr ""
+"저장된 작업공간"
+
+#: STATS_PROPOR_REGRPRED.R:171
+msgid "Creation Date"
+msgstr ""
+"작성 날짜"
+
+#: STATS_PROPOR_REGRPRED.R:172
+msgid "Prediction Dataset"
+msgstr ""
+"예측 데이터 세트"
+
+#: STATS_PROPOR_REGRPRED.R:176
+msgid "Maximum Likelihood"
+msgstr ""
+"최대 우도"
+
+#: STATS_PROPOR_REGRPRED.R:177
+msgid "ML Bias Corrected"
+msgstr ""
+"ML 편향 정정됨"
+
+#: STATS_PROPOR_REGRPRED.R:178
+msgid "ML Bias Reduced"
+msgstr ""
+"ML 편향 축소됨"
+
+#: STATS_PROPOR_REGRPRED.R:185
+#: STATS_PROPOR_REGRPRED.R:186
+#: STATS_PROPOR_REGRPRED.R:190
+msgid "--NA--"
+msgstr ""
+"--해당 없음--"
+
+#: STATS_PROPOR_REGRPRED.R:189
+msgid "Yes"
+msgstr ""
+"예"
+
+#: STATS_PROPOR_REGRPRED.R:189
+msgid "No"
+msgstr ""
+"아니오"
+
+#: STATS_PROPOR_REGRPRED.R:196
+#: STATS_PROPOR_REGRPRED.R:197
+#: STATS_PROPOR_REGRPRED.R:197
+msgid "Summary"
+msgstr ""
+"요약"
+
+#: STATS_PROPOR_REGRPRED.R:198
+msgid "Computations done by R package betareg"
+msgstr ""
+"R 패키지 betareg에 의해 수행된 계산"
+
+#: STATS_PROPOR_REGRPRED.R:204
+msgid "Coefficient"
+msgstr ""
+"계수"
+
+#: STATS_PROPOR_REGRPRED.R:204
+msgid "Std. Error"
+msgstr ""
+"표준오차"
+
+#: STATS_PROPOR_REGRPRED.R:204
+msgid "Z Value"
+msgstr ""
+"Z 값"
+
+#: STATS_PROPOR_REGRPRED.R:204
+msgid "Sig."
+msgstr ""
+"TPL 유의확률"
+
+#: STATS_PROPOR_REGRPRED.R:206
+#: STATS_PROPOR_REGRPRED.R:207
+msgid "Mean Coefficients"
+msgstr ""
+"평균 계수"
+
+#: STATS_PROPOR_REGRPRED.R:211
+#: STATS_PROPOR_REGRPRED.R:212
+msgid "Precision Coefficients"
+msgstr ""
+"정밀도 계수"
+
+#: STATS_PROPOR_REGRPRED.R:254
+msgid "Predicted Values, Type=%s"
+msgstr ""
+"예측값, 유형=%s"
+
+#: STATS_PROPOR_REGRPRED.R:270
+msgid "The active dataset must have a name when creating new datasets"
+msgstr ""
+"새 데이터 세트를 작성할 때 활성 데이터 세트의 이름이 있어야 합니다."
+
+#: STATS_PROPOR_REGRPRED.R:274
+msgid "One or more specified output dataset names are already in use"
+msgstr ""
+"하나 이상의 지정된 출력 데이터 세트 이름이 이미 사용 중입니다."
+
+#: STATS_PROPOR_REGRPRED.R:335
+msgid "End of procedure"
+msgstr ""
+"프로시저 끝"
+
+#: STATS_PROPOR_REGRPRED.R:362
+msgid "Message Number"
+msgstr ""
+"메시지 번호"
+
+
