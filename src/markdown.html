@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>STATS PROPOR REGRPRED Extension Command</title>
+
+<link rel="stylesheet" type="text/css" href="extsyntax.css" />
+
+
+
+
+
+</head>
+
+<body>
+<h1>STATS PROPOR REGRPRED Extension Command</h1>
+
+<p>This procedure calculates predicted values using
+a model produced by STATS PROPOR REGRPRED and new data.</p>
+<div class="syntax">
+<p>STATS PROPOR REGRPRED DATASET=<em>dataset</em><sup>&#42;</sup>
+    PREDTYPE = RESPONSE<sup>&#42;&#42;</sup> or LINK or PRECISION or VARIANCE<br/>
+    SOURCE= FILE or WORKSPACE<br/>
+    FILE = &ldquo;<em>filespec</em>&rdquo;<br/>
+    ID = <em>id variable</em></p>
+
+<p>/OPTIONS
+    MISSING = MISSING<sup>&#42;&#42;</sup> or OMIT or STOP<br/>
+    DISPLAYMODEL = NO<sup>&#42;&#42;</sup> or YES</p>
+
+<p>/HELP</p>
+
+<p><sup>&#42;</sup> Required<br/>
+<sup>&#42;&#42;</sup> Default</p>
+</div>
+<p>STATS PROPOR REGRPRED /HELP prints this help and does nothing else.</p>
+
+<p>Either SOURCE=WORKSPACE or FILE=filespec is required.</p>
+
+
+<pre class="example"><code>STATS PROPOR REGRPRED DATASET=predictions FILE=&#39;c:/temp/mymodel.Rdata&#39;.
+</code></pre>
+
+<p><strong>DATASET</strong> specifies the name for a new dataset to hold the predicted values.
+The name must not already be in use.</p>
+
+<p><strong>PREDTYPE</strong> specifies the desired type of prediction.  The default is RESPONSE.</p>
+
+<p><strong>SOURCE</strong> specifies where the model is found.  If SOURCE=WORKSPACE, the model
+comes from executing STATS PROPOR REGR in the current session with
+RETAIN=YES.  If SOURCE=FILE, the model is loaded from the <strong>FILE</strong>
+specification, which must have been saved with the RFILE keyword
+in STATS PROPOR REGR.  If the FILE keyword is specified, it is
+not necessary to also specify SOURCE.</p>
+
+<p><strong>ID</strong> specifies a variable to be included in the prediction dataset to
+facilitate matching back to the input data.</p>
+
+<p><strong>MISSING</strong> specifies whether a missing value in any input variable produces
+a case with a missing value for the prediction in the dataset, causes 
+the case to be omitted, or causes the procedure to stop.</p>
+
+<p><strong>DISPLAYMODEL</strong> causes the saved model to be displayed.</p>
+
+<p>&copy; Copyright IBM Corp. 1989, 2014</p>
+
+</body>
+
+</html>
+
