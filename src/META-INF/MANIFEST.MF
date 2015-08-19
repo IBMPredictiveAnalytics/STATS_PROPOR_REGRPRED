@@ -1,0 +1,17 @@
+Name: STATS PROPOR REGRPRED
+Dialog-Specs: STATS_PROPOR_REGRPRED.spd
+Command-Specs: STATS_PROPOR_REGRPRED.xml
+Code-Files: STATS_PROPOR_REGRPRED.R
+Misc-Files: markdown.html,extsyntax.css,IBMdialogicon.png
+Summary: Calculate predicted values for proportional regression models
+Description: This procedure takes a model estimated by the STATS PROPO
+ R REGR extension command and uses it to calculate predicted values of
+  various types for new data.
+Author: JKP, IBM SPSS
+Version: 1.0.4
+Product-Version: 18
+Date: 9/30/2013
+Categories: statistics regression proportion
+Plugins: R
+R-Packages: betareg
+Translation-Catalogues: lang
