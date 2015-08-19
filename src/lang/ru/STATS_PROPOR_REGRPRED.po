@@ -1,0 +1,233 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_PROPOR_REGRPRED.R:69
+#: STATS_PROPOR_REGRPRED.R:157
+msgid "Proportional Variable Regression Prediction"
+msgstr ""
+"Предсказание пропорциональной регрессии переменной"
+
+#: STATS_PROPOR_REGRPRED.R:70
+msgid "Proportional Variable Regression Prediction: Warnings"
+msgstr ""
+"Предсказание пропорциональной регрессии переменной: Предупреждения"
+
+#: STATS_PROPOR_REGRPRED.R:75
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"Необходим пакет R %s, но его не удалось загрузить."
+
+#: STATS_PROPOR_REGRPRED.R:88
+msgid "The ID variable cannot be a predictor in the model"
+msgstr ""
+"ID переменной не может быть предиктором в модели"
+
+#: STATS_PROPOR_REGRPRED.R:98
+msgid "An input or ID variable was not found in the dataset"
+msgstr ""
+"В наборе данных не найдена входная переменная или переменная ID"
+
+#: STATS_PROPOR_REGRPRED.R:127
+msgid "No source specification was provided for the model"
+msgstr ""
+"Для модели не задана спецификация источника"
+
+#: STATS_PROPOR_REGRPRED.R:131
+msgid "Either a workspace file or the use-retained option but not both must be specified"
+msgstr ""
+"Должен быть задан либо файл рабочего пространства, либо опция использования сохраненного, но не то и другое сразу."
+
+#: STATS_PROPOR_REGRPRED.R:139
+msgid "The model file %s could not be found or is  not a valid model file."
+msgstr ""
+"Файл модели %s не удалось найти, либо он не является допустимым файлом модели."
+
+#: STATS_PROPOR_REGRPRED.R:147
+msgid "One or more required objects are missing from the specified workspace"
+msgstr ""
+"В заданном рабочем пространстве отсутствует один или несколько обязательных объектов"
+
+#: STATS_PROPOR_REGRPRED.R:151
+msgid "One or more proportional regression objects are invalid"
+msgstr ""
+"Недопустим один или несколько объектов пропорциональной регрессии"
+
+#: STATS_PROPOR_REGRPRED.R:161
+msgid "Dependent Variable"
+msgstr ""
+"Зависимая переменная"
+
+#: STATS_PROPOR_REGRPRED.R:162
+msgid "Link Function"
+msgstr ""
+"Функция связи"
+
+#: STATS_PROPOR_REGRPRED.R:163
+msgid "Mean Model Variables"
+msgstr ""
+"Переменные модели среднего"
+
+#: STATS_PROPOR_REGRPRED.R:164
+msgid "Precision Model Link Function"
+msgstr ""
+"Функция связи модели точности"
+
+#: STATS_PROPOR_REGRPRED.R:165
+msgid "Precision Model Variables"
+msgstr ""
+"Переменные модели точности"
+
+#: STATS_PROPOR_REGRPRED.R:166
+msgid "Offset"
+msgstr ""
+"Смещение"
+
+#: STATS_PROPOR_REGRPRED.R:167
+msgid "Missing Value Treatment"
+msgstr ""
+"Способ обработки пропущенных значений"
+
+#: STATS_PROPOR_REGRPRED.R:168
+msgid "Estimator Type"
+msgstr ""
+"Тип оценок"
+
+#: STATS_PROPOR_REGRPRED.R:169
+msgid "Convergence"
+msgstr ""
+"Сходимость"
+
+#: STATS_PROPOR_REGRPRED.R:170
+msgid "Saved Workspace"
+msgstr ""
+"Сохраненное рабочее пространство"
+
+#: STATS_PROPOR_REGRPRED.R:171
+msgid "Creation Date"
+msgstr ""
+"Дата создания"
+
+#: STATS_PROPOR_REGRPRED.R:172
+msgid "Prediction Dataset"
+msgstr ""
+"Набор данных предсказания"
+
+#: STATS_PROPOR_REGRPRED.R:176
+msgid "Maximum Likelihood"
+msgstr ""
+"Максимальное правдоподобие"
+
+#: STATS_PROPOR_REGRPRED.R:177
+msgid "ML Bias Corrected"
+msgstr ""
+"С коррекцией смещения ML"
+
+#: STATS_PROPOR_REGRPRED.R:178
+msgid "ML Bias Reduced"
+msgstr ""
+"С сокращением смещения ML"
+
+#: STATS_PROPOR_REGRPRED.R:185
+#: STATS_PROPOR_REGRPRED.R:186
+#: STATS_PROPOR_REGRPRED.R:190
+msgid "--NA--"
+msgstr ""
+"--НП--"
+
+#: STATS_PROPOR_REGRPRED.R:189
+msgid "Yes"
+msgstr ""
+"Да"
+
+#: STATS_PROPOR_REGRPRED.R:189
+msgid "No"
+msgstr ""
+"Нет"
+
+#: STATS_PROPOR_REGRPRED.R:196
+#: STATS_PROPOR_REGRPRED.R:197
+#: STATS_PROPOR_REGRPRED.R:197
+msgid "Summary"
+msgstr ""
+"Итог"
+
+#: STATS_PROPOR_REGRPRED.R:198
+msgid "Computations done by R package betareg"
+msgstr ""
+"Вычисления выполнены пакетом R betareg"
+
+#: STATS_PROPOR_REGRPRED.R:204
+msgid "Coefficient"
+msgstr ""
+"Коэффициент"
+
+#: STATS_PROPOR_REGRPRED.R:204
+msgid "Std. Error"
+msgstr ""
+"Стд. ошибка"
+
+#: STATS_PROPOR_REGRPRED.R:204
+msgid "Z Value"
+msgstr ""
+"Z-значение"
+
+#: STATS_PROPOR_REGRPRED.R:204
+msgid "Sig."
+msgstr ""
+"Значимость"
+
+#: STATS_PROPOR_REGRPRED.R:206
+#: STATS_PROPOR_REGRPRED.R:207
+msgid "Mean Coefficients"
+msgstr ""
+"Коэффициенты среднего"
+
+#: STATS_PROPOR_REGRPRED.R:211
+#: STATS_PROPOR_REGRPRED.R:212
+msgid "Precision Coefficients"
+msgstr ""
+"Коэффициенты точности"
+
+#: STATS_PROPOR_REGRPRED.R:254
+msgid "Predicted Values, Type=%s"
+msgstr ""
+"Предсказанные значения; тип=%s"
+
+#: STATS_PROPOR_REGRPRED.R:270
+msgid "The active dataset must have a name when creating new datasets"
+msgstr ""
+"При создания новых наборов данных у активного набора данных должно быть имя"
+
+#: STATS_PROPOR_REGRPRED.R:274
+msgid "One or more specified output dataset names are already in use"
+msgstr ""
+"Одно или несколько имен наборов данных уже используются"
+
+#: STATS_PROPOR_REGRPRED.R:335
+msgid "End of procedure"
+msgstr ""
+"Конец процедуры"
+
+#: STATS_PROPOR_REGRPRED.R:362
+msgid "Message Number"
+msgstr ""
+"Номер сообщения"
+
+
