@@ -8,7 +8,7 @@ Description: This procedure takes a model estimated by the STATS PROPO
  R REGR extension command and uses it to calculate predicted values of
   various types for new data.
 Author: JKP, IBM SPSS
-Version: 1.0.4
+Version: 1.0.5
 Product-Version: 18
 Date: 9/30/2013
 Categories: statistics regression proportion
